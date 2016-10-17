@@ -1,0 +1,41 @@
+包名
+	一律小寫 的單個英文單詞
+	如 net.tcp net::tcp
+
+類名
+	多個英文單詞 首字母大寫
+	如 TcpServer
+
+函數名
+	多個英文單詞 首字母大寫
+	第一個單詞 首字母小寫 為非公開
+	如 ShowInfo 公開
+	showInfo 非公開
+
+變量名
+	多個英文單詞 首字母大寫
+	第一個單詞 首字母小寫
+	如 catId
+
+成員變量名
+	加 _ 前綴
+	如 _CatId 公開
+	_catId 非公開
+
+指針變量
+	加 Ptr 後綴
+	如 _CatIdPtr
+
+std::shared_ptr
+	加 SPtr 後綴
+	如 _CatIdSPtr
+
+boost::shared_ptr
+	加 BSPtr 後綴
+	如 _CatIdBSPtr
+
+
+全局變量
+	加 G_ 前綴
+	如 G_CatId 公開
+	G_catId 非公開
